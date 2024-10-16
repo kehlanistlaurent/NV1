@@ -324,7 +324,7 @@ func main() {
 
 func updateStatus(dg *discordgo.Session) {
     // Set bot online/custom status
-    statusMessageLocation := "https://raw.githubusercontent.com/d3tourrr/NomiKin-Discord/refs/heads/main/StatusMessage.txt"
+    statusMessageLocation := "https://raw.githubusercontent.com/kehlanistlaurent/NV1/refs/heads/main/StatusMessage.txt"
     statusResp, err := http.Get(statusMessageLocation)
     if err != nil {
         log.Printf("Error retrieving status message: %v", err)
